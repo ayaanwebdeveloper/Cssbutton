@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bto{
+    width: 25%;
+    height: 15vh;
+    background-color: red;
+    font-size: 50px;
+    color: white;
+    border: 5px solid black;
+    margin-top: 30vh;
+    transition: all 0.4s;
+
+}
+.bto:hover{
+    background-color: black;
+    border: 5px solid red;
+    margin-left: 2vh;
+    transform: scale(1.05);
+    cursor: pointer;
+}
